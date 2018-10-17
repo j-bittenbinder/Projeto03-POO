@@ -62,13 +62,13 @@ public class DadosVeiculo {
         if(veiculo == null){
             veiculo = new ArrayList<>();
             DadosVeiculo dv1 = new DadosVeiculo();
-            dv1.setVeiculo("OFP5853", "Volkswagen", "Fusca", "Pérola");
+            dv1.setVeiculo("OFP-5853", "Volkswagen", "Fusca", "Pérola");
             veiculo.add(dv1);
             DadosVeiculo dv2 = new DadosVeiculo();
-            dv2.setVeiculo("DCE7118", "Ford", "Ranger", "Preta");
+            dv2.setVeiculo("DCE-7118", "Ford", "Ranger", "Preta");
             veiculo.add(dv2);
             DadosVeiculo dv3 = new DadosVeiculo();
-            dv3.setVeiculo("COQ1606", "Fiat", "Uno", "Vermelha");
+            dv3.setVeiculo("COQ-1606", "Fiat", "Uno", "Vermelha");
             veiculo.add(dv3);
         }
         return veiculo;
