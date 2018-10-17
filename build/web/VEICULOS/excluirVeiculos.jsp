@@ -55,6 +55,8 @@
                             </div>
                         </div>
                         <div class="text-center">
+                            
+                            <a href="./listarVeiculos.jsp" class="btn btn-warning">Cancelar</a>
                             <input type="submit" class="btn btn-danger" name="excluir" value="Excluir"/>     
                         </div>
                     </form>
