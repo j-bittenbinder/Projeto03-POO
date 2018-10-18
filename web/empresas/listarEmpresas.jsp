@@ -40,8 +40,8 @@
                             <td><%=de.getTelefone()%></td>
                             <td><%=de.getWebsite()%></td>
                             <td>
-                                <a href="" class="btn btn-primary">Alterar</a>
-                                <a href="" class="btn btn-danger">Excluir</a>
+                                <a href="alterarEmpresa.jsp" class="btn btn-primary">Alterar</a>
+                                <a href="excluirEmpresa.jsp" class="btn btn-danger">Excluir</a>
                             </td>
                         </tr>
                         <%}%>

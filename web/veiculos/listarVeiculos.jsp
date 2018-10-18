@@ -45,7 +45,7 @@
                         <%}%>
                     </table>
                     <div class="text-center">
-                        <a href="adicionarVeiculo.jsp" ><button class="btn btn-success">Inserir</button></a>
+                        <a href="adicionarVeiculo.jsp"><button class="btn btn-success">Inserir</button></a>
                     </div>
                 </div>
             </div>
