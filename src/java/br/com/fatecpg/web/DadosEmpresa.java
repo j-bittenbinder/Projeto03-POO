@@ -72,13 +72,13 @@ public class DadosEmpresa {
         if(empresa == null){
             empresa = new ArrayList<>();
             DadosEmpresa de1 = new DadosEmpresa();
-            de1.setEmpresa("J Doces", "João ME", "16816811681681681", "18991110001", "jdoces.com.br");
+            de1.setEmpresa("J Doces", "João ME", "16816811681681681", "18991110001", "https://www.jdoces.com.br");
             empresa.add(de1);
             DadosEmpresa de2 = new DadosEmpresa();
-            de2.setEmpresa("Madeferro", "Francisco LTDA", "16652987315681681", "18991112201", "madeferro.com.br");
+            de2.setEmpresa("Madeferro", "Francisco LTDA", "16652987315681681", "18991112201", "https://www.madeferro.com.br");
             empresa.add(de2);
             DadosEmpresa de3 = new DadosEmpresa();
-            de3.setEmpresa("B Papelaria", "Tereza MEI", "16816827681685211", "18991110661", "bpapelaria.com.br");
+            de3.setEmpresa("B Papelaria", "Tereza MEI", "16816827681685211", "18991110661", "https://www.bpapelaria.com.br");
             empresa.add(de3);
         }
         return empresa;
