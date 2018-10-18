@@ -17,7 +17,7 @@
             int i = Integer.parseInt(request.getParameter("i"));
             DadosEmpresa e = DadosEmpresa.getEmpresas().get(i);
             if (request.getParameter("alterar") != null) {
-                String nome = request.getParameter("nome").toUpperCase();
+                String nome = request.getParameter("nome");
                 String razaosocial = request.getParameter("razao-social");
                 String cnpj = request.getParameter("cnpj");
                 String telefone = request.getParameter("telefone");
