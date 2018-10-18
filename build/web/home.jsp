@@ -9,9 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>POO Projeto 03</title>
+        <%@include file="../WEB-INF/jspf/imports.jspf" %>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>POO Projeto 03</h1>
+        <a href="veiculos/listarVeiculos.jsp" class="btn btn-primary">Veículos</a>
+        <a href="empresas/listarEmpresas.jsp" class="btn btn-primary">Empresas</a>
+        <a href="pessoas/listarPessoas.jsp" class="btn btn-primary">Pessoas</a>
     </body>
 </html>
