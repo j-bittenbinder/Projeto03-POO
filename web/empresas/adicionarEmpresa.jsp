@@ -3,7 +3,7 @@
     Created on : 18/10/2018, 16:16:00
     Author     : Mateus
 --%>
-
+<%@page import="br.com.fatecpg.web.DadosEmpresa"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,6 +13,19 @@
         <%@include file="../WEB-INF/jspf/imports.jspf" %>
     </head>
     <body>
+        <%
+            if (request.getParameter("cadastrar") != null) {
+                String nome = request.getParameter("nome").toUpperCase();
+                String razaosocial = request.getParameter("razao-social");
+                String cnpj = request.getParameter("cnpj");
+                String telefone = request.getParameter("telefone");
+                String website = request.getParameter("website");
+                DadosEmpresa e = new DadosEmpresa();
+                e.setEmpresa(nome, razaosocial, cnpj, telefone, website);
+                DadosEmpresa.getEmpresas().add(e);
+                response.sendRedirect("listarEmpresas.jsp");
+            }
+        %>
         <div class="container">
             <h1>Adicionar Empresa</h1>
             <div class="row">
