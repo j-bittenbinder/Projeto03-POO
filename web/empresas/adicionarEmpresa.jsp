@@ -15,7 +15,7 @@
     <body>
         <%
             if (request.getParameter("cadastrar") != null) {
-                String nome = request.getParameter("nome").toUpperCase();
+                String nome = request.getParameter("nome");
                 String razaosocial = request.getParameter("razao-social");
                 String cnpj = request.getParameter("cnpj");
                 String telefone = request.getParameter("telefone");
