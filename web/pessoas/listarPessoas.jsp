@@ -10,11 +10,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Veiculos</title>
+        <title>Pessoas</title>
         <%@include file="../WEB-INF/jspf/imports.jspf" %>
     </head>
     <body>
-        <h1>Lista Veículos</h1>
+        <h1>Lista Pessoas</h1>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -22,30 +22,30 @@
                         <thead class="thead-dark ">
                             <tr>
                                 <th>ID</th>
-                                <th>Placa</th>
-                                <th>Marca</th>
-                                <th>Modelo</th>
-                                <th>Cor</th>
+                                <th>Nome</th>
+                                <th>Telefone</th>
+                                <th>Email</th>
+                                <th>CPF</th>
                                 <th>Opções</th>
                             </tr>
                         </thead>
-                        <%for (DadosVeiculo dv : DadosVeiculo.getVeiculos()) {%>
-                        <%int i = DadosVeiculo.getVeiculos().indexOf(dv);%>
+                        <%for (DadosPessoa dv : DadosPessoa.getPessoas()) {%>
+                        <%int i = DadosPessoa.getPessoas().indexOf(dv);%>
                         <tr>
                             <td><%=i%></td>
-                            <td><%=dv.getPlaca()%></td>
-                            <td><%=dv.getMarca()%></td>
-                            <td><%=dv.getModelo()%></td>
-                            <td><%=dv.getCor()%></td>
+                            <td><%=dv.getNome()%></td>
+                            <td><%=dv.getTelefone()%></td>
+                            <td><%=dv.getEmail()%></td>
+                            <td><%=dv.getCpf()%></td>
                             <td>
-                                <a href="alterarVeiculos.jsp?i=<%=i%>" ><button class="btn btn-primary">Alterar</button></a>
-                                <a href="excluirVeiculos.jsp?i=<%=i%>"><button class="btn btn-danger">Excluir</button></a>
+                                <a href="alterarPessoas.jsp?i=<%=i%>" ><button class="btn btn-primary">Alterar</button></a>
+                                <a href="excluirPessoas.jsp?i=<%=i%>"><button class="btn btn-danger">Excluir</button></a>
                             </td>
                         </tr>
                         <%}%>
                     </table>
                     <div class="text-center">
-                        <a href="adicionarVeiculo.jsp"><button class="btn btn-success">Inserir</button></a>
+                        <a href="adicionarPessoas.jsp"><button class="btn btn-success">Inserir</button></a>
                     </div>
                 </div>
             </div>
