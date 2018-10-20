@@ -62,7 +62,7 @@ public class DadosVeiculo {
         if(veiculo == null){
             veiculo = new ArrayList<>();
             DadosVeiculo dv1 = new DadosVeiculo();
-            dv1.setVeiculo("OFP-5853", "Volkswagen", "Fusca", "Pérola");
+            dv1.setVeiculo("OFP-5853", "Volkswagen", "Fusca", "Perola");
             veiculo.add(dv1);
             DadosVeiculo dv2 = new DadosVeiculo();
             dv2.setVeiculo("DCE-7118", "Ford", "Ranger", "Preta");
