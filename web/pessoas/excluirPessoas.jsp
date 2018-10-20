@@ -1,7 +1,7 @@
 <%-- 
-    Document   : excluirVeiculos
-    Created on : 17/10/2018, 13:31:45
-    Author     : oper1.goliveira
+    Document   : excluirPessoas
+    Created on : 17/10/2018, 14:31:45
+    Author     : Renan
 --%>
 <%@page import="br.com.fatecpg.web.DadosPessoa"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -18,7 +18,7 @@
             DadosPessoa v = DadosPessoa.getPessoas().get(i);
             if (request.getParameter("excluir") != null) {
                 DadosPessoa.getPessoas().remove(i);
-                response.sendRedirect("listarVeiculos.jsp");
+                response.sendRedirect("listarPessoas.jsp");
             }
         %>
         <h2>Alteração de dados - Pessoas</h2>

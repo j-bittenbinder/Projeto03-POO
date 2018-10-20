@@ -1,7 +1,7 @@
 <%-- 
-    Document   : veiculos
-    Created on : 13/10/2018, 13:34:27
-    Author     : Julio
+    Document   : pessoas
+    Created on : 19/10/2018, 14:34:27
+    Author     : Renan
 --%>
 
 <%@page import="br.com.fatecpg.web.DadosPessoa"%>
@@ -15,6 +15,7 @@
     </head>
     <body>
         <h1>Lista Pessoas</h1>
+                                        <a href="../home.jsp"><button class="btn btn-success">Inserir</button></a>
         <div class="container">
             <div class="row">
                 <div class="col">
