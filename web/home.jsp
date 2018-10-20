@@ -35,8 +35,9 @@
                     <div class="col-12 text-center">
                         <p class="text-muted h3">Integrantes do grupo</p>
                         <div class="h5 pt-3">
-                            <p>Guilherme</p>
+                            <p>Guilherme Souza</p>
                             <p>Julio Bittenbinder</p>
+                            <p>Renan Lorenzetti</p>
                             <p>Mateus Vidal Marinho</p>
                             <p>Mário César Lanes Júnior</p>
                         </div>
